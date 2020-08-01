@@ -11,7 +11,6 @@ export class LoadingPage implements OnInit {
   loading: string = "Loading";
 
   constructor(private loadingController: LoadingController) { }
-
   ngOnInit() {
     this.presentLoading();
   }
